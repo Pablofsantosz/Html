@@ -1,0 +1,104 @@
+<!DOCTYPE html>  <!-- Declaração do tipo de documento HTML5 -->
+
+<html lang="en">   <!-- Tag raiz do HTML, com idioma definido como inglês -->
+<head>  <!-- Início do cabeçalho da página (não visível no corpo da página) -->
+
+    <meta charset="UTF-8">  <!-- Define a codificação dos caracteres como UTF-8 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  <!-- Responsividade: adapta ao tamanho da tela do dispositivo -->
+    <title>My html</title>  <!-- Título da página (aparece na aba do navegador) -->
+
+    <style>   Bloco de CSS interno 
+
+        /* Estilo para todas as tags <h1> */
+        h1 {
+            background-color: red;  /* Cor de fundo vermelha */
+        }
+
+        /* Estilo para todas as tags <p> (parágrafo) */
+        p {
+            background-color: blue;  /* Cor de fundo azul */
+        }
+
+        /* Classe personalizada chamada "fundo-vermelho" */
+        .fundo-vermelho {
+            background-color: aqua;  /* Cor de fundo azul-claro */
+        }
+
+        /* Classe chamada "bold" para estilizar texto em negrito */
+        .bold {
+            color: rgb(139, 0, 37);  /* Cor do texto vinho escuro */
+            background-color: blueviolet;  /* Cor de fundo violeta */
+        }
+
+    </style>  <!-- Fim do CSS interno -->
+
+</head>
+<body>  <!-- Início do corpo da página (o que é visível ao usuário) -->
+
+    <!-- Título de nível 1 com duas classes aplicadas: fundo-vermelho e borde-esquerda (essa classe não existe ainda no CSS) -->
+    <h1 id="head-um" class="fundo-vermelho borde-esquerda">
+        head 1 
+    </h1>
+
+    <!-- Título de nível 1 com classe fundo-vermelho -->
+    <h1 id="head-dois" class="fundo-vermelho">
+        head 2
+    </h1>
+
+    <!-- Parágrafo com classe fundo-vermelho e um trecho em negrito estilizado com a classe bold -->
+    <p class="fundo-vermelho">
+        paragrafo <b class="bold">NEGRiTO</b>...
+    </p>
+
+</body>
+</html>  <!-- Fim do HTML -->
+
+<!--
+id |-> indetificador de elemetento  , sempre com ("") eunico por html nao pode ter repetidos
+classes -> tbm sao indetificadores de elementos porem diferentes do id ,as classes podem se
+repetir, e posso colocar mais um a classe para um unico elemento
+
+======================================================================================
+Agora todos o h1 tem o fundo vermelho
+h1 {
+            background-color: red;
+
+        }
+
+======================================================================================
+quando for especificar um id 
+#head-dois{
+            background-color: purple;
+        }
+
+
+
+tag<b> ==para colocar as coisas em negrito 
+
+======================================================================================
+-Nos caso de cima estou selecionando  diretamente a Tag e 
+no ultimo estou selecionando diretamente Um elemento especifico
+h1 {
+            background-color: red;
+
+        }
+
+P{
+            background-color: blue;
+        }
+
+#head-dois{
+            background-color: purple;
+        }
+======================================================================================
+-> quando eu quero selecionar que toda uma classe tenha fundo aqua:
+
+ .fundo-vermelho{
+            background-color: aqua;
+        }
+
+
+Porem tem questão de hieraquia onde se eu ja tiver colocado para um Id uma cor no fundo 
+com eu colocando pela classe eu nao vou conseguir mudar pq o id é "forte" e não consegue subescrever.
+
+-->
