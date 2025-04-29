@@ -1,0 +1,26 @@
+/* 
+Formas de escrever CSS:
+- Inline CSS (direto na tag HTML)
+- Internal CSS (em <style> dentro do HTML)
+- External CSS (arquivo .css separado)
+*/
+
+/* 
+Seletores básicos:
+- Elementos (ex: h1, p, etc.)
+- Classes (.classe)
+- IDs (#id)
+*/
+
+/* 
+Propriedades principais:
+- Cores: color, background-color
+- Fontes: font-family, font-size
+- Espaçamento: margin, padding
+- Layout básico: text-align, display, flexbox
+*/
+
+/* 
+Sistema de layout:
+- Uso do Flexbox para organizar seções
+*/

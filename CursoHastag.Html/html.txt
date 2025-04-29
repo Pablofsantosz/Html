@@ -1,0 +1,25 @@
+<!-- 
+O que é o HTML?
+- Linguagem de marcação usada para estruturar páginas da web.
+-->
+
+<!-- 
+Estrutura básica do HTML:
+- <!DOCTYPE html>
+- <html>, <head>, <body>
+- <head> contém metadados da página (ex: título, links de CSS, etc).
+-->
+
+<!-- 
+Elementos essenciais:
+- Cabeçalhos: <h1> a <h6>
+- Parágrafos: <p>
+- Links: <a>
+- Imagens: <img>
+- Listas: <ul>, <ol> e <li>
+-->
+
+<!-- 
+Estruturando o conteúdo:
+- Uso de <div>, <section>, <header> e <footer> para organizar a página.
+-->
