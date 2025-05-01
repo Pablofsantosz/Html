@@ -1,3 +1,6 @@
+-O que é o CSS
+    -Cascading Style sheets
+    -Arquivos de estilização em cascata 
 /* 
 Formas de escrever CSS:
 - Inline CSS (direto na tag HTML)
