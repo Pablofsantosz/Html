@@ -13,18 +13,19 @@
         background-color: #222;
         color: aliceblue;
     }-->
-        
     <title>Pagina de portifolio</title>
 </head>
 <body>
     <header>
-        <h1>Portifolio - Pablo Felipe dos santos</h1>
-        <p>Desemvolverdor web full stack</p>
+        <h1>Portifólio - Pablo Felipe dos santos</h1>
+        <p class="dev-full">Desemvolverdor web full stack</p>
     </header>
+
     <section>
-        <h2>Sobre mim</h2>
-        <p>Sou estudante de ciêcia da computação da unicap, estou estudando a parte de desemvolvimento web
-            (html,css e javascript)
+        <h2 class ="Sobre">Sobre mim</h2>
+        <p>
+            Sou estudante de ciêcia da computação da unicap, estou estudando a parte de desemvolvimento web
+            html,css e javascript
         </p>
     </section>
     
@@ -32,58 +33,64 @@
     <section>
         <h2>Hablidades</h2>
     
-        <h3>Linguagens</h3>
-        <div>
-            <ul> <!--Lista nao ordenada(ul) , lista odernada com contador(ol) tudo que voce tem dentro de uma ul ol sao os itens da lista(li)  termos da lista(li)-->
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>Javascript</li>
-                <li>C</li>
-                <li>C#</li>
-                <li>Java</li>
-                <li>Python</li>
-            </ul>
-        </div>
+        <!--(hablidade linguagem)= 2 classes diferentes (hablidade-linguagem)=1 class-->
+        <div class="hab">
+            <div class="habilidade ">
+                <h3 >Linguagens</h3>
+                <ul> <!--Lista nao ordenada(ul) , lista odernada com contador(ol) tudo que voce tem dentro de uma ul ol sao os itens da lista(li)  termos da lista(li)-->
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Javascript</li>
+                    <li>C</li>
+                    <li>C#</li>
+                    <li>Java</li>
+                    <li>Python</li>
+                </ul>
+            </div>
 
-        <h3>Tecnologias</h3>
+            
 
-        <div>
-            <ol>
-                <li>React</li>
-                <li>Node</li>
-                <li>Express JS</li>
-                <li>Vite</li>
-                <li>SAS</li>
-            </ol>
+            <div class="habilidade">
+                <h3>Tecnologias</h3>
+                <ol>
+                    <li>React</li>
+                    <li>Node</li>
+                    <li>Express JS</li>
+                    <li>Vite</li>
+                    <li>SAS</li>
+                </ol>
+            </div>
         </div>
     </section>
 
 
     <section>
-        <h2>projetos</h2>
+        <h2 class="name-projetos">projetos</h2>
 
-        <div>
-            <h3>Site de receituarios</h3>
-        
-            <img width ="600" 
-            src="./imagens/FastRX.png" 
-            alt="Projeto FastRX" 
-            >
-            <a href="https://github.com/Pablofsantosz/Projeto_Engenharia_De_Software" target="_blank">
-            Clique para acessar</a>
-        </div>
-
-        <br><br><br><br><br>
-
-        <div>
-            <h3>Jogo simples do Mario-jump</h3>
+        <div class="Projetos">
+            <div class="projeto">
+                <h3>Site de receituarios</h3>
             
-            <img width ="600" 
-            src="./imagens/Mariojump.png" 
-            alt="Mario jump" 
-            >
-            <a href="https://github.com/Pablofsantosz/Mario_Jump" target="_blank">
-            Clique para acessar</a>
+                <img width ="600" 
+                src="./imagens/FastRX.png" 
+                alt="Projeto FastRX" 
+                >
+                <a href="https://github.com/Pablofsantosz/Projeto_Engenharia_De_Software" target="_blank">
+                Clique para acessar</a>
+            </div>
+
+            
+
+            <div class="projeto">
+                <h3>Jogo simples do Mario-jump</h3>
+                
+                <img width ="600" 
+                src="./imagens/Mariojump.png" 
+                alt="Mario jump" 
+                >
+                <a href="https://github.com/Pablofsantosz/Mario_Jump" target="_blank">
+                Clique para acessar</a>
+            </div>
         </div>
 </section>
 

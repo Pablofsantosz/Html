@@ -1,8 +1,132 @@
-header{
-    background-color: #111;
+/* SELETOR UNIVERSAL */
+/* Aplica essas regras a todos os elementos da página */
+*{
+    box-sizing: border-box; /* Faz com que padding e border não aumentem a largura total do elemento */
+    margin: 0px; /* Remove margens padrão dos navegadores */
+    padding: 0px; /* Remove espaçamento interno padrão */
+}
 
+/* Define que as imagens não ultrapassem o tamanho do container */
+img{
+    max-width:100%;
 }
+
+/* Estiliza o corpo da página */
 body{
-    background-color: #222;
-    color: aliceblue;
+    background-color: #222; /* Cor de fundo escura */
+    color: white; /* Cor do texto */
+    font-family: "Montserrat"; /* Fonte do texto */
+    line-height: 120%; /* Espaçamento entre linhas */
 }
+
+/* Estiliza o cabeçalho */
+header{
+    background-color: #111; /* Fundo um pouco mais escuro que o body */
+    padding: 30px 40px; /* Espaçamento interno no topo/baixo e laterais */
+    display: flex; /* Usa flexbox para organizar conteúdo */
+    justify-content: space-between; /* Espaça os itens (h1 e p) nos extremos */
+    align-items: center; /* Alinha verticalmente no centro */
+}
+
+/* Aplica estilos a todas as sections e ao footer */
+section,footer{
+    padding: 40px; /* Espaçamento interno */
+    display: flex;
+    flex-direction: column; /* Coloca elementos em coluna */
+    gap: 10px; /* Espaçamento entre os elementos filhos */
+}
+
+/* Adiciona uma borda inferior nas sections */
+section{
+    border-bottom: 1px solid #555;
+}
+
+/* Espaço extra abaixo do título "Sobre mim" */
+.Sobre{
+    margin-bottom: 20px;
+}
+
+/* Tamanho da fonte padrão para parágrafos */
+p {
+    font-size: 21px;
+}
+
+/* Define tamanho maior para a classe que descreve a profissão */
+.dev-full{
+    font-size: 26px;
+}
+
+/* Área que agrupa os blocos de habilidades */
+.hab{
+    display: flex;
+    gap: 40px; /* Espaço entre as colunas (Linguagens e Tecnologias) */
+}
+
+/* Define que cada coluna de habilidades será em coluna e espaçada */
+.habilidade{
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Espaço entre os itens internos */
+}
+
+/* Recuo padrão de listas */
+ul,ol{
+    margin-left: 15px;
+}
+
+/* Cor padrão dos links */
+a{
+    color: white;
+}
+
+/* Cor do link quando passa o mouse */
+a:hover{
+    color: aqua;
+}
+
+/* Estilo para cada projeto individual */
+.projeto{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* Agrupa os projetos lado a lado */
+.Projetos{
+    display: flex;
+    gap: 40px;
+}
+.name-projetos{
+    margin-bottom: 20px;
+}
+
+/* Rodapé da página */
+footer{
+    line-height: 30px; /* Espaçamento entre linhas */
+    text-align: center;
+    align-items: center; /* Centraliza os itens horizontalmente */
+}
+
+/* Comentários que foram desativados (estão dentro de bloco de comentário CSS)
+footer{
+    padding:40px;
+}
+*/
+
+/*
+EXEMPLOS DE SELETORES (comentados):
+
+- Seletor de classe (.classe):
+.habilidade{
+    background-color: #333;
+}
+
+.linguagem{
+    color: yellow;
+}
+
+- Seletor de ID (#id):
+#ep{
+    color: blue;
+}
+*/
