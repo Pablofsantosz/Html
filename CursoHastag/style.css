@@ -18,6 +18,11 @@ body{
     font-family: "Montserrat"; /* Fonte do texto */
     line-height: 120%; /* Espaçamento entre linhas */
 }
+.light{
+    background-color:white; /* Cor de fundo escura */
+    color: #222;
+
+}
 
 /* Estiliza o cabeçalho */
 header{
@@ -26,6 +31,11 @@ header{
     display: flex; /* Usa flexbox para organizar conteúdo */
     justify-content: space-between; /* Espaça os itens (h1 e p) nos extremos */
     align-items: center; /* Alinha verticalmente no centro */
+}
+
+.light header{/* A classe + o elemento*/
+    background-color:#ddd; /* Cor de fundo escura */
+    
 }
 
 /* Aplica estilos a todas as sections e ao footer */
@@ -77,12 +87,44 @@ ul,ol{
 /* Cor padrão dos links */
 a{
     color: white;
+    transition: background-color 0.2s linear;
+    cursor: pointer; /*muda a cursor para o dedinho*/
 }
 
 /* Cor do link quando passa o mouse */
 a:hover{
-    color: aqua;
+    color: #352f2f;
 }
+button{
+    padding: 7.5px 15px;
+    font-size: 20px; 
+    border-radius: 1000px;
+    border:none ;
+    background-color: #eee;
+    transition: background-color 0.2s linear;
+    cursor: pointer; /*muda a cursor para o dedinho*/
+}
+button:hover{
+    background-color: #bbb;
+
+}
+
+.light button{/* A classe + o elemento*/
+    background-color: #aaa;
+    color: white;
+}
+
+.light button:hover{
+    background-color: #777;
+}
+.light a{
+    color: #111;
+}
+.light a:hover{
+    color: rgb(43, 10, 194);
+
+}
+
 
 /* Estilo para cada projeto individual */
 .projeto{
@@ -106,7 +148,20 @@ footer{
     text-align: center;
     align-items: center; /* Centraliza os itens horizontalmente */
 }
+/*classe verde e vermelho eu criei fazendo o script para pode fazer mudaças pelo javascript*/
+.verde{
+    color: rgb(0, 255, 76);
+}
+.vermelho{
+    color: red;
 
+}
+.informacoes{
+    display: none;
+}
+.informacoes-visivel{
+    display: block;
+}
 /* Comentários que foram desativados (estão dentro de bloco de comentário CSS)
 footer{
     padding:40px;
