@@ -1,0 +1,22 @@
+// O que é o JavaScript?
+-É uma linguagem de programação entra pra tornar interativo a página
+
+// Conexão do JavaScript com o HTML (arquivo externo usando <script>).
+
+// Seletores de elementos no DOM (document.querySelector).
+
+// Manipulação de conteúdo e estilos:
+// Alterar textos e classes dinamicamente.
+// textContent e inline style
+// adicionar e remover classes
+
+// Eventos básicos:
+// Clique em botões (addEventListener).
+// Exibir alertas ou mensagens.
+// Fazer algo com classe/texto
+
+// Implementação de funcionalidades simples:
+// Mostrar/ocultar informações de contato ao clicar em um botão.
+// Deixar a seção de contato visível somente ao clicar no botão
+
+// Um "modo escuro" básico com alternância de classe.
